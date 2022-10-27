@@ -6,7 +6,7 @@
 /*   By: vviovi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 14:34:00 by vviovi            #+#    #+#             */
-/*   Updated: 2022/10/26 13:09:38 by vviovi           ###   ########.fr       */
+/*   Updated: 2022/10/27 08:51:18 by vviovi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ void	print_recursive(size_t nbr, char *base, size_t base_size, int *size)
 
 int	ft_putnbr_base(size_t nbr, char *base)
 {
-	size_t			size;
-	int				res_size;
+	size_t	size;
+	int		res_size;
 	size_t	convnb;
 
 	size = ft_strlen(base);
